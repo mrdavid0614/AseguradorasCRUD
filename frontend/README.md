@@ -12,6 +12,10 @@ First you need to clone this repository and then move to the repository director
   cd frontend
 ```
 
+Yarn version used:
+
+- 1.22.19
+
 Now you need to install the project dependencies.
 
 ```bash
@@ -24,7 +28,11 @@ Or
   yarn install
 ```
 
-When the instalation is finished, you can now run the app by typing:
+When the instalation is finished, you need to create a `.env` file based on the variables in `.env.example` file.
+
+You need to set the `VITE_BASE_URL` variable with your API base api URL.
+
+ you can now run the app by typing:
 
 ```bash
   yarn dev
